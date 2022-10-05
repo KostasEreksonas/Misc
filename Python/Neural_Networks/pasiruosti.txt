@@ -1,0 +1,6 @@
+I. Multi-Layer Perceptron (MLP)
+II. Tekstinių elementų encodinimas:
+	1. Vector beam - tikslesnis, sudėtingesnis.
+	2. One-hot - lengvesnis.
+III. Suprogramuoti su Python kalba naudojantis Tensorflow arba Keras bibliotekas.
+IV. Kitai savaitei.

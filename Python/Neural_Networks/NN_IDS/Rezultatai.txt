@@ -1,0 +1,219 @@
+[+] NSL-KDD tinklo duomenų rinkinyje esančių atakų tipų klasifikacija į 4 klases
+--------------------------------------------------------------------------------
+Klasifikuoti atakų tipai: {'normal': 0, 'back': 1, 'land': 1, 'neptune': 1, 'pod': 1, 'smurf': 1, 'teardrop': 1, 'processtable': 1, 'udpstorm': 1, 'mailbomb': 1, 'apache2': 1, 'ftp_write': 2, 'guess_passwd': 2, 'imap': 2, 'multihop': 2, 'phf': 2, 'warezmaster': 2, 'warezclient': 2, 'spy': 2, 'sendmail': 2, 'xlock': 2, 'snmpguess': 2, 'named': 2, 'xsnoop': 2, 'snmpgetattack': 2, 'worm': 2, 'buffer_overflow': 3, 'loadmodule': 3, 'perl': 3, 'rootkit': 3, 'xterm': 3, 'ps':
+3, 'httptunnel': 3, 'sqlattack': 3, 'ipsweep': 4, 'mscan': 4, 'nmap': 4, 'portsweep': 4, 'saint': 4, 'satan': 4}
+
+[+] NSL-KDD tinklo duomenų rinkinyje esantys protokolų tipai
+------------------------------------------------------------
+Protokolų tipai: {'tcp': 0, 'udp': 1, 'icmp': 2}
+
+[+] NSL-KDD tinklo duomenų rinkinyje esantys paslaugų tipai
+-----------------------------------------------------------
+Paslaugų tipai: {'aol': 0, 'auth': 1, 'bgp': 2, 'courier': 3, 'csnet_ns': 4, 'ctf': 5, 'daytime': 6, 'discard': 7, 'domain': 8, 'domain_u': 9, 'echo': 10, 'eco_i': 11, 'ecr_i': 12, 'efs': 13, 'exec': 14, 'finger': 15, 'ftp': 16, 'ftp_data': 17, 'gopher': 18, 'harvest': 19, 'hostnames': 20, 'http': 21, 'http_2784':
+22, 'http_443': 23, 'http_8001': 24, 'imap4': 25, 'IRC': 26, 'iso_tsap': 27, 'klogin': 28, 'kshell': 29, 'ldap': 30, 'link': 31, 'login': 32, 'mtp': 33, 'name': 34, 'netbios_dgm': 35, 'netbios_ns': 36, 'netbios_ssn': 37, 'netstat': 38, 'nnsp': 39, 'nntp': 40, 'ntp_u': 41, 'other': 42, 'pm_dump': 43, 'pop_2': 44, 'pop_3': 45, 'printer': 46, 'private': 47, 'red_i': 48, 'remote_job': 49, 'rje': 50, 'shell': 51, 'smtp': 52, 'sql_net': 53, 'ssh': 54, 'sunrpc': 55, 'supdup':
+56, 'systat': 57, 'telnet': 58, 'tftp_u': 59, 'tim_i': 60, 'time': 61, 'urh_i': 62, 'urp_i': 63, 'uucp': 64, 'uucp_path': 65, 'vmnet': 66, 'whois': 67, 'X11': 68, 'Z39_50': 69}
+
+[+] NSL-KDD tinklo duomenų rinkinyje esantčios vėliavos vertės
+--------------------------------------------------------------
+Vėliavos: {'OTH': 0, 'REJ': 1, 'RSTO': 2, 'RSTOS0': 3, 'RSTR': 4, 'S0': 5, 'S1': 6, 'S2': 7, 'S3': 8, 'SF': 9, 'SH': 10}
+
+[+] Apmokymo duomenys, paimti iš duomenų rinkinio
+-------------------------------------------------
+['0', 'tcp', 'ftp_data', 'SF', '491', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '2', '2', '0.00', '0.00', '0.00', '0.00', '1.00', '0.00', '0.00', '150', '25', '0.17', '0.03', '0.17', '0.00', '0.00', '0.00', '0.05', '0.00', 'normal', '20']
+
+[+] Užkoduoti apmokymo duomenys
+-------------------------------
+['0', 0, 17, 9, '491', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '2', '2', '0.00', '0.00', '0.00', '0.00', '1.00',
+'0.00', '0.00', '150', '25', '0.17', '0.03', '0.17', '0.00', '0.00', '0.00', '0.05', '0.00']
+
+[+] Užkoduotas kibernetinės atakos tipas (0-5)
+----------------------------------------------
+0
+
+[+] Testavimo duomenys, paimti iš duomenų rinkinio
+--------------------------------------------------
+['0', 'tcp', 'private', 'REJ', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '229', '10', '0.00', '0.00', '1.00',
+'1.00', '0.04', '0.06', '0.00', '255', '10', '0.04', '0.06', '0.00', '0.00', '0.00', '0.00', '1.00', '1.00', 'neptune', '21']
+
+[+] Užkoduoti testavimo duomenys
+--------------------------------
+['0', 0, 47, 1, '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '229', '10', '0.00', '0.00', '1.00', '1.00', '0.04', '0.06', '0.00', '255', '10', '0.04', '0.06', '0.00', '0.00', '0.00', '0.00', '1.00', '1.00']
+
+[+] Užkoduotas kibernetinės atakos tipas (0-5)
+----------------------------------------------
+1
+
+/usr/lib/python3.10/site-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+/usr/lib/python3.10/site-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+/usr/lib/python3.10/site-packages/sklearn/base.py:566: FutureWarning: Arrays of bytes/strings is being converted to decimal numbers if dtype='numeric'. This behavior is deprecated in 0.24 and will be removed in 1.1 (renaming of 0.26). Please convert your data to numeric values explicitly instead.
+  X = check_array(X, **check_params)
+
+[+] Transformuoti apmokymo duomenys
+-----------------------------------
+[[0.00000000e+00 0.00000000e+00 3.30496041e-02 ... 0.00000000e+00
+  9.72047180e-05 0.00000000e+00]
+ [0.00000000e+00 3.36414110e-03 1.41293926e-01 ... 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [0.00000000e+00 0.00000000e+00 1.63037250e-01 ... 3.46887766e-03
+  0.00000000e+00 0.00000000e+00]
+ ...
+ [0.00000000e+00 0.00000000e+00 2.28177048e-02 ... 0.00000000e+00
+  4.38802015e-06 0.00000000e+00]
+ [0.00000000e+00 0.00000000e+00 9.50918835e-02 ... 3.39613870e-03
+  0.00000000e+00 0.00000000e+00]
+ [0.00000000e+00 0.00000000e+00 5.54098254e-02 ... 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]]
+
+[+] Transformuoti testavimo duomenys
+------------------------------------
+[[0.00000000e+00 0.00000000e+00 1.35745197e-01 ... 0.00000000e+00
+  2.88819568e-03 2.88819568e-03]
+ [0.00000000e+00 0.00000000e+00 1.60514288e-01 ... 0.00000000e+00
+  3.41519763e-03 3.41519763e-03]
+ [1.54035845e-04 0.00000000e+00 1.30930468e-03 ... 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ ...
+ [0.00000000e+00 0.00000000e+00 3.80633149e-04 ... 0.00000000e+00
+  1.26877716e-06 1.26877716e-06]
+ [0.00000000e+00 2.74955626e-03 2.47460063e-02 ... 0.00000000e+00
+  0.00000000e+00 0.00000000e+00]
+ [0.00000000e+00 0.00000000e+00 2.09970678e-01 ... 0.00000000e+00
+  1.67976543e-03 3.81764870e-03]]
+
+[+] Apmokymo duomenys transformuoti į 3D masyvą
+-----------------------------------------------
+[[[0.00000000e+00 0.00000000e+00 3.30496041e-02 ... 0.00000000e+00
+   9.72047180e-05 0.00000000e+00]]
+
+ [[0.00000000e+00 3.36414110e-03 1.41293926e-01 ... 0.00000000e+00
+   0.00000000e+00 0.00000000e+00]]
+
+ [[0.00000000e+00 0.00000000e+00 1.63037250e-01 ... 3.46887766e-03
+   0.00000000e+00 0.00000000e+00]]
+
+ ...
+
+ [[0.00000000e+00 0.00000000e+00 2.28177048e-02 ... 0.00000000e+00
+   4.38802015e-06 0.00000000e+00]]
+
+ [[0.00000000e+00 0.00000000e+00 9.50918835e-02 ... 3.39613870e-03
+   0.00000000e+00 0.00000000e+00]]
+
+ [[0.00000000e+00 0.00000000e+00 5.54098254e-02 ... 0.00000000e+00
+   0.00000000e+00 0.00000000e+00]]]
+
+[+] Testavimo duomenys transformuoti į 3D masyvą
+------------------------------------------------
+[[[0.00000000e+00 0.00000000e+00 1.35745197e-01 ... 0.00000000e+00
+   2.88819568e-03 2.88819568e-03]]
+
+ [[0.00000000e+00 0.00000000e+00 1.60514288e-01 ... 0.00000000e+00
+   3.41519763e-03 3.41519763e-03]]
+
+ [[1.54035845e-04 0.00000000e+00 1.30930468e-03 ... 0.00000000e+00
+   0.00000000e+00 0.00000000e+00]]
+
+ ...
+
+ [[0.00000000e+00 0.00000000e+00 3.80633149e-04 ... 0.00000000e+00
+   1.26877716e-06 1.26877716e-06]]
+
+ [[0.00000000e+00 2.74955626e-03 2.47460063e-02 ... 0.00000000e+00
+   0.00000000e+00 0.00000000e+00]]
+
+ [[0.00000000e+00 0.00000000e+00 2.09970678e-01 ... 0.00000000e+00
+   1.67976543e-03 3.81764870e-03]]]
+
+[+] Apmokymo duomenų rinkinyje esančių atakų klasių kodavimas one-hot metodu
+----------------------------------------------------------------------------
+[[1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]
+ ...
+ [1. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]]
+
+[+] Testavimo duomenų rinkinyje esančių atakų klasių kodavimas one-hot metodu
+-----------------------------------------------------------------------------
+[[0. 1. 0. 0. 0.]
+ [0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ ...
+ [0. 1. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 1.]]
+
+[+] Duomenys parengti
+
+2022-01-18 12:59:24.290314: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-01-18 12:59:24.806212: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1415 MB
+memory:  -> device: 0, name: NVIDIA GeForce 940MX, pci bus id: 0000:01:00.0, compute capability: 5.0
+
+[+] Modelio apmokymas bei validavimas
+---------------------------------------
+Epoch 1/20
+2022-01-18 12:59:27.018525: I tensorflow/stream_executor/cuda/cuda_dnn.cc:368] Loaded cuDNN version 8300
+3543/3543 [==============================] - 18s 4ms/step - loss: 0.3412 - accuracy: 0.8876 - val_loss: 0.2309 - val_accuracy: 0.9209
+Epoch 2/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.2433 - accuracy: 0.9203 - val_loss: 0.1972 - val_accuracy: 0.9348
+Epoch 3/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.2174 - accuracy: 0.9293 - val_loss: 0.1861 - val_accuracy: 0.9367
+Epoch 4/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.2012 - accuracy: 0.9349 - val_loss: 0.1694 - val_accuracy: 0.9395
+Epoch 5/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1876 - accuracy: 0.9392 - val_loss: 0.1539 - val_accuracy: 0.9483
+Epoch 6/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1784 - accuracy: 0.9420 - val_loss: 0.1511 - val_accuracy: 0.9513
+Epoch 7/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1706 - accuracy: 0.9432 - val_loss: 0.1339 - val_accuracy: 0.9601
+Epoch 8/20
+3543/3543 [==============================] - 16s 4ms/step - loss: 0.1616 - accuracy: 0.9456 - val_loss: 0.1261 - val_accuracy: 0.9563
+Epoch 9/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1558 - accuracy: 0.9481 - val_loss: 0.1218 - val_accuracy: 0.9520
+Epoch 10/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1494 - accuracy: 0.9500 - val_loss: 0.1199 - val_accuracy: 0.9594
+Epoch 11/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1431 - accuracy: 0.9517 - val_loss: 0.1132 - val_accuracy: 0.9562
+Epoch 12/20
+3543/3543 [==============================] - 16s 4ms/step - loss: 0.1383 - accuracy: 0.9531 - val_loss: 0.1128 - val_accuracy: 0.9613
+Epoch 13/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1358 - accuracy: 0.9546 - val_loss: 0.1043 - val_accuracy: 0.9642
+Epoch 14/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1309 - accuracy: 0.9558 - val_loss: 0.0986 - val_accuracy: 0.9648
+Epoch 15/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1284 - accuracy: 0.9573 - val_loss: 0.1012 - val_accuracy: 0.9635
+Epoch 16/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1249 - accuracy: 0.9579 - val_loss: 0.0954 - val_accuracy: 0.9668
+Epoch 17/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1226 - accuracy: 0.9590 - val_loss: 0.0935 - val_accuracy: 0.9676
+Epoch 18/20
+3543/3543 [==============================] - 15s 4ms/step - loss: 0.1197 - accuracy: 0.9592 - val_loss: 0.0960 - val_accuracy: 0.9652
+Epoch 19/20
+3543/3543 [==============================] - 16s 4ms/step - loss: 0.1182 - accuracy: 0.9600 - val_loss: 0.0931 - val_accuracy: 0.9659
+Epoch 20/20
+3543/3543 [==============================] - 16s 4ms/step - loss: 0.1155 - accuracy: 0.9608 - val_loss: 0.1117 - val_accuracy: 0.9635
+
+[+] Modelio testavimas
+------------------------
+705/705 [==============================] - 2s 3ms/step - loss: 1.7930 - accuracy: 0.7208
+
+[+] Modelio tikslumas
+-----------------------
+Tikslumas: 72.08%
+
+[+] Sukurto neuroninio tinklo modelio grafikai
+------------------------------------------------
+[+] Kuriama neuroninio tinklo modelio blokinė schema
+[+] Schema išsaugota adresu:/home/kostas/Documents/Shared_Folders/Win10/I_kursas_1_semestras/Pazangus_algoritmai_ir_ju_sudetingumas/Neural_Networks/NN_IDS/Models/model.png
+[+] Kuriamas neuroninio tinklo modelio tikslumo grafikas
+[+] Grafikas išsaugotas adresu:/home/kostas/Documents/Shared_Folders/Win10/I_kursas_1_semestras/Pazangus_algoritmai_ir_ju_sudetingumas/Neural_Networks/NN_IDS/Models/acc.png
+[+] Kuriamas praradimo (loss) vertės grafikas
+[+] Grafikas išsaugotas adresu:/home/kostas/Documents/Shared_Folders/Win10/I_kursas_1_semestras/Pazangus_algoritmai_ir_ju_sudetingumas/Neural_Networks/NN_IDS/Models/loss.png
+
+[+] Programos veikimo laikas
+------------------------------
+Programos veikimo laikas: 5 min. ir 21.28 s
